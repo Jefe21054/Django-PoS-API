@@ -7,4 +7,4 @@ psycopg2
 django-cors-headers
 python-decouple
 gunicorn
-django-admin-tailwind
+django-jazzmin
