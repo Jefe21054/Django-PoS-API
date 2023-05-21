@@ -1,0 +1,10 @@
+django==3.2
+djangorestframework
+cloudinary
+djangorestframework-simplejwt
+drf-yasg
+psycopg2
+django-cors-headers
+python-decouple
+gunicorn
+django-admin-tailwind
