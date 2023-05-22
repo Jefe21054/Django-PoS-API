@@ -36,8 +36,8 @@ schema_view = get_schema_view(
         contact=openapi.Contact(email="ivaniglesias500@protonmail.ch"),
         license=openapi.License(name="MIT License"),
     ),
-    public=True,
-    permission_classes=[permissions.AllowAny],
+    public=False,
+    permission_classes=[permissions.IsAuthenticatedOrReadOnly],
 )
 
 urlpatterns = [
